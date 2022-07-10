@@ -26,6 +26,9 @@
     .advantages {
         padding: 69px 0 20px 0;
     }
+    .consultation {
+        text-align: center;
+    }
 }
 
 @media (max-width: 424px) {
@@ -42,5 +45,8 @@
     }
     .promo__icon {
         margin-top: 20px;
+    }
+    .consultation__descr {
+        font-size: 15px;
     }
 }
