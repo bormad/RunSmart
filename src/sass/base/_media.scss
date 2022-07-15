@@ -29,9 +29,25 @@
     .consultation {
         text-align: center;
     }
+    .title__left {
+        text-align: center;
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+    .catalog__content_active {
+        justify-content: space-around;
+    }
+    .catalog__tabs {
+        flex-direction: column;
+    }
+    .catalog__tab {
+        margin-top: 10px;
+    }
 }
 
-@media (max-width: 424px) {
+@media (max-width: 425px) {
     .promo__header {
         font-size: 35px;
     }
@@ -49,4 +65,5 @@
     .consultation__descr {
         font-size: 15px;
     }
+
 }
